@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:small_dripleaf",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:small_dripleaf",
+    "count": 2
+  }
+}

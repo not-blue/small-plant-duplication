@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dripleaf_duplication:small_dripleaf"
+      }
+    },
+    "has_small_dripleaf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:small_dripleaf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_small_dripleaf"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dripleaf_duplication:small_dripleaf"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:small_dripleaf"
+      },
+      "title": "Small Dripleaf Duplication",
+      "description": "Duplicate small dripleaf plants using bonemeal."
+    },
+    "parent": "global:notblue",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  
